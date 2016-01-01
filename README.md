@@ -1,6 +1,8 @@
 SGP4_11
 ------------
 
+[![Join the chat at https://gitter.im/pleira/sgp4s_11](https://badges.gitter.im/pleira/sgp4s_11.svg)](https://gitter.im/pleira/sgp4s_11?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Interim scala project to try different SGP4 algorithm implementations. SGP4 is used to predict orbits from TLE data. The Deep Space algorithm, which contains lunar-solar perturbations, is not implemented. My [sgp4s](http://github.com/pleira/sgp4s) project should become the improvements tried here.
 
 Most of the code is based in the work done by Vallado, documented in [SpaceTrackReport #3](https://celestrak.com/NORAD/documentation/). To verify the results, the cpp [public code](http://celestrak.com/publications/AIAA/2006-6753/) has been taken. Also, I have looked into the TLE processing done in the [Orekit](http://www.orekit.org) project.
